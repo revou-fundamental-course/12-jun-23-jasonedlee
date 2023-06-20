@@ -2,14 +2,28 @@
   font-size : 40px;
   text-align : center;
   margin-bottom : 70px;
-  margin-top : 60px;
-  padding-top : 20px;
-  padding-bottom : 20px;
+  padding-top : 40px;
+  padding-bottom : 40px;
   padding-left : auto;
   padding-right : auto;
   background-color : rgba(0, 0, 0, 0.836);
   color : white ;
   border : none;
+  margin-left : 0px;
+  transition : padding-top 0.7s, padding-bottom 0.7s;
+}
+.title:hover{
+  font-size : 40px;
+  text-align : center;
+  margin-bottom : 70px;
+  padding-top : 200px;
+  padding-bottom : 200px;
+  padding-left : auto;
+  padding-right : auto;
+  background-color : rgba(0, 0, 0, 0.836);
+  color : white ;
+  border : none;
+  margin-left : 0px;
 }
 p,input,button{
   margin-left : 10px;
@@ -21,7 +35,6 @@ p {
 }
 .title-1 {
   margin-bottom : 15px;
-  width : 725px;
   line-height : 21px;
   margin-top : 22px;
 }
@@ -128,4 +141,25 @@ margin-bottom : 20px;
 }
 .title-s2 {
 margin-bottom : 60px;
+}
+.button-konversi{
+  margin-left : 160px;
+}
+body {
+  margin : 0px;
+  padding : 0px;
+}
+.bawah {
+  font-size : 40px;
+  text-align : center;
+  margin-bottom : 70px;
+  padding-top : 200px;
+  padding-bottom : 200px;
+  padding-left : auto;
+  padding-right : auto;
+  background-color : rgba(0, 0, 0, 0.836);
+  color : white ;
+  border : none;
+  margin-left : 0px;
+  margin-bottom : 0px;
 }
