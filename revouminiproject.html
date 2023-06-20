@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kakulator Suhu</title>
+    <link rel="stylesheet" href="revouminiproject.css">
+  </head>
+  <body>
+    <p class="title">
+      Converter Calculator
+    </p>
+    <p class="title-1">
+      Masukkan suhu derajat Celsius (&#176;C) ke kotak dibawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&#176;F).
+    </p>
+    <p class="title-celsius">
+      Celsius (&#176;C):
+    </p>
+    <input class="input-celsius" type="number">
+    <button class="button-konversi" onclick="convert()">
+      Konversi
+    </button>
+    <button class="button-reset">
+      Reset
+    </button>
+    <button class="button-reverse">
+      Reverse
+    </button>
+    <p class="title-fahrenheit">
+      Fahrenheit (&#176;F):
+    </p>
+    <input class="input-fahrenheit" type="number">
+    <p class="title-kalkulasi">
+      Cara Kalkulasi:
+    </p>
+    <input class="input-kalkulasi" type="number">
+    <p class="title-fahtocel">
+      Fahrenheit ke Celsius
+    </p>
+    <p class="title-2">
+      Cara Konversi Dari Celsius (&#176;C) ke Fahrenheit (&#176;F)
+    </p>
+    <p class="title-3">
+      Suhu <span class="span1">S</span> dalam derajat Fahrenheit (&#176;F) sama dengan suhu <span class="span1">S</span> dalam derajat Celsius (&#176;C) kali <span class="span2">9/5</span> tambah <span class="span2">32</span>.
+    </p>
+    <p class="title-s1">
+      <span class="span1">S</span>(&#176;F) = (<span class="span1">S</span>(&#176;C) X <span class="span2">9/5</span>)<span class="span2"> + 32</span>
+    </p>
+    <p class="title-atau">
+      atau
+    </p>
+    <p class="title-s2">
+      <span class="span1">S</span>(&#176;F) = (<span class="span1">S</span>(&#176;C) X <span class="span2">1,8</span>)<span class="span2"> + 32</span>
+    </p>
+
+
+    <script>
+      function convert() {
+        const value = document.getElementsByClassName("input-celsius").value;
+        const fahrenheit = (value * 9/5) + 32;
+      }
+      console.log(fahrenheit);
+    </script>
+  </body>
+</html>
