@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kakulator Suhu</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="JS/script.js"></script>
+  </head>
+  <body>
+    <p class="title">Converter Calculator</p>
+    <p class="title-1">Masukkan suhu derajat Celsius (&#176;C) ke kotak dibawah, lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&#176;F).</p>
+    <p class="title-celsius" id="title-celsius">Celsius:</p>
+    <input class="input-celsius" type="number" id="inCelsius" />
+    <button class="button-konversi" onclick="konversi()">Konversi</button>
+    <button class="button-reset" onclick="resett()">Reset</button>
+    <button class="button-reverse" onclick="balik()" id="revv">Reverse</button>
+    <p class="title-fahrenheit" id="title-fahrenheit">Fahrenheit:</p>
+    <input class="input-fahrenheit" id="inFahrenheit" type="number" disabled />
+    <p class="title-kalkulasi">Cara Kalkulasi:</p>
+    <textarea name="ckal" id="ckal" class="input-kalkulasi" disabled></textarea>
+    <p class="title-fahtocel" id="title-fahtocel">Fahrenheit ke Celsius</p>
+    <p class="title-2">Cara Konversi Dari Celsius (&#176;C) ke Fahrenheit (&#176;F)</p>
+    <p class="title-3">
+      Suhu <span class="span1">S</span> dalam derajat Fahrenheit (&#176;F) sama dengan suhu <span class="span1">S</span> dalam derajat Celsius (&#176;C) kali <span class="span2">9/5</span> tambah <span class="span2">32</span>.
+    </p>
+    <p class="title-s1"><span class="span1">S</span>(&#176;F) = (<span class="span1">S</span>(&#176;C) X <span class="span2">9/5</span>)<span class="span2"> + 32</span></p>
+    <p class="title-atau">atau</p>
+    <p class="title-s2"><span class="span1">S</span>(&#176;F) = (<span class="span1">S</span>(&#176;C) X <span class="span2">1,8</span>)<span class="span2"> + 32</span></p>
+    <p class="bawah">REVOU MINI PROJECT</p>
+  </body>
+</html>
